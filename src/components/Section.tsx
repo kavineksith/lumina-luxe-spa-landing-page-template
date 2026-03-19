@@ -23,23 +23,29 @@ export const Section: React.FC<SectionProps> = ({ id, className = "", children, 
   );
 };
 
-interface GlassCardProps {
+interface GlassCardProps extends React.HTMLAttributes<HTMLDivElement> {
   children: ReactNode;
-  className?: string;
   hoverEffect?: boolean;
   interactive?: boolean;
 }
 
-export const GlassCard: React.FC<GlassCardProps> = ({ children, className = "", hoverEffect = true, interactive = false }) => {
+export const GlassCard: React.FC<GlassCardProps> = ({
+  children,
+  className = "",
+  hoverEffect = true,
+  interactive = false,
+  ...rest
+}) => {
   return (
-    <div 
+    <div
       className={`
         bg-white/30 backdrop-blur-xl border border-white/40 shadow-xl 
         rounded-3xl p-6 transition-all duration-300
-        ${hoverEffect ? 'hover:bg-white/50 hover:shadow-2xl hover:shadow-rose-200/50 hover:-translate-y-1' : ''}
-        ${interactive ? 'cursor-pointer active:scale-95' : ''}
+        ${hoverEffect ? "hover:bg-white/50 hover:shadow-2xl hover:shadow-rose-200/50 hover:-translate-y-1" : ""}
+        ${interactive ? "cursor-pointer active:scale-95" : ""}
         ${className}
       `}
+      {...rest}
     >
       {children}
     </div>
