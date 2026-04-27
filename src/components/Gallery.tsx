@@ -9,20 +9,20 @@ export const Gallery: React.FC = () => {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 auto-rows-[200px]">
         {/* Masonry-style grid utilizing col/row spans */}
         <div className="col-span-2 row-span-2 rounded-2xl overflow-hidden relative group">
-          <img src="https://picsum.photos/600/600?random=40" alt="Gallery 1" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+          <img src="https://images.unsplash.com/photo-1544161515-4ae6ce6db87e?q=80&w=600&h=600&auto=format&fit=crop" alt="Gallery 1" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
           <div className="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors"></div>
         </div>
         <div className="col-span-1 row-span-1 rounded-2xl overflow-hidden relative group">
-          <img src="https://picsum.photos/300/300?random=41" alt="Gallery 2" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+          <img src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?q=80&w=300&h=300&auto=format&fit=crop" alt="Gallery 2" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
         </div>
         <div className="col-span-1 row-span-2 rounded-2xl overflow-hidden relative group">
-          <img src="https://picsum.photos/300/600?random=42" alt="Gallery 3" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+          <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=300&h=600&auto=format&fit=crop" alt="Gallery 3" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
         </div>
         <div className="col-span-1 row-span-1 rounded-2xl overflow-hidden relative group">
-          <img src="https://picsum.photos/300/300?random=43" alt="Gallery 4" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+          <img src="https://images.unsplash.com/photo-1487412912498-0447578fcca8?q=80&w=300&h=300&auto=format&fit=crop" alt="Gallery 4" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
         </div>
         <div className="col-span-2 row-span-1 rounded-2xl overflow-hidden relative group">
-          <img src="https://picsum.photos/600/300?random=44" alt="Gallery 5" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+          <img src="https://images.unsplash.com/photo-1519415510236-85710ce35b62?q=80&w=600&h=300&auto=format&fit=crop" alt="Gallery 5" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
         </div>
       </div>
       

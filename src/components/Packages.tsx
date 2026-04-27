@@ -9,14 +9,14 @@ const packages: PackageItem[] = [
     title: 'Essential Glow',
     price: '$99',
     features: ['Classic Facial', 'Manicure & Pedicure', 'Hair Wash & Blowdry'],
-    image: 'https://picsum.photos/400/300?random=20',
+    image: 'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=400&h=300&auto=format&fit=crop',
   },
   {
     id: 'gold',
     title: 'Bridal Radiance',
     price: '$299',
     features: ['Premium Gold Facial', 'Full Body Polishing', 'Bridal Makeup Trial', 'Luxury Hair Spa'],
-    image: 'https://picsum.photos/400/300?random=21',
+    image: 'https://images.unsplash.com/photo-1487412912498-0447578fcca8?q=80&w=400&h=300&auto=format&fit=crop',
     popular: true,
   },
   {
@@ -24,7 +24,7 @@ const packages: PackageItem[] = [
     title: 'Ultimate Detox',
     price: '$199',
     features: ['Aromatherapy Massage', 'Detox Body Wrap', 'Foot Reflexology', 'Green Tea Refreshment'],
-    image: 'https://picsum.photos/400/300?random=22',
+    image: 'https://images.unsplash.com/photo-1544161515-4ae6ce6db87e?q=80&w=400&h=300&auto=format&fit=crop',
   },
 ];
 
