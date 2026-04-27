@@ -9,28 +9,28 @@ const stylists: StylistItem[] = [
     name: 'Sarah Jenkins',
     role: 'Senior Hair Stylist',
     specialty: 'Color & Cuts',
-    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=300&h=300&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1519823551278-64ac92734fb1?q=80&w=400&h=400&auto=format&fit=crop',
   },
   {
     id: '2',
     name: 'Elena Rodriguez',
     role: 'Makeup Artist',
     specialty: 'Bridal & Editorial',
-    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=300&h=300&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1611920629515-3f76f8c36b37?q=80&w=400&h=400&auto=format&fit=crop',
   },
   {
     id: '3',
     name: 'Mai Lin',
     role: 'Skincare Specialist',
     specialty: 'Facials & Therapy',
-    image: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=300&h=300&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=400&h=400&auto=format&fit=crop',
   },
   {
     id: '4',
     name: 'Jessica Cole',
     role: 'Nail Technician',
     specialty: 'Art & Design',
-    image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=300&h=300&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1520333789090-1afc82db536a?q=80&w=400&h=400&auto=format&fit=crop',
   },
 ];
 
@@ -47,6 +47,7 @@ export const Stylists: React.FC = () => {
              <div className="relative rounded-3xl overflow-hidden aspect-[3/4] shadow-lg">
                 <img 
                   src={stylist.image} 
+                  crossOrigin="anonymous"
                   alt={stylist.name} 
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />

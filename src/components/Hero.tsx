@@ -66,7 +66,8 @@ export const Hero: React.FC = () => {
              {/* Main Image */}
              <div className="relative w-[400px] h-[500px] rounded-[40px] overflow-hidden shadow-2xl border-4 border-white animate-float">
                 <img 
-                  src="https://images.unsplash.com/photo-1544161515-4ae6ce6db87e?q=80&w=400&h=500&auto=format&fit=crop" 
+                  src="https://images.unsplash.com/photo-1730367019975-4ad8d9e14ef2?q=80&w=400&h=500&auto=format&fit=crop" 
+                  crossOrigin="anonymous"
                   alt="Beautiful woman in spa" 
                   className="w-full h-full object-cover"
                 />

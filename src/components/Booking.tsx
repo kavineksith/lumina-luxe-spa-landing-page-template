@@ -28,7 +28,7 @@ export const Booking: React.FC = () => {
       <div className="relative rounded-[3rem] overflow-hidden bg-slate-900 shadow-2xl">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0">
-          <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecee?q=80&w=1200&h=800&auto=format&fit=crop" alt="Spa Ambience" className="w-full h-full object-cover opacity-60" />
+          <img src="https://images.unsplash.com/photo-1730367019975-4ad8d9e14ef2?q=80&w=1200&h=800&auto=format&fit=crop" crossOrigin="anonymous" alt="Spa Ambience" className="w-full h-full object-cover opacity-60" />
           <div className="absolute inset-0 bg-gradient-to-r from-rose-900/90 to-purple-900/80 backdrop-blur-sm"></div>
         </div>
 

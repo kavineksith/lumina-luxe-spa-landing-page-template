@@ -9,21 +9,21 @@ const testimonials: TestimonialItem[] = [
     name: 'Emily Davis',
     comment: "The most relaxing experience I've ever had. The facial treatment took years off my skin!",
     rating: 5,
-    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=100&h=100&auto=format&fit=crop'
+    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&h=200&auto=format&fit=crop'
   },
   {
     id: '2',
     name: 'Sophia Chen',
     comment: "Stunning interior and incredibly professional staff. My bridal makeup was perfection.",
     rating: 5,
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=100&h=100&auto=format&fit=crop'
+    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&h=200&auto=format&fit=crop'
   },
   {
     id: '3',
     name: 'Olivia Wilson',
     comment: "I love the organic products they use. It smells divine and feels so safe for my sensitive skin.",
     rating: 5,
-    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=100&h=100&auto=format&fit=crop'
+    image: 'https://images.unsplash.com/photo-1519823551278-64ac92734fb1?q=80&w=200&h=200&auto=format&fit=crop'
   }
 ];
 
@@ -35,7 +35,7 @@ export const Testimonials: React.FC = () => {
         {testimonials.map((item) => (
           <GlassCard key={item.id} className="flex flex-col items-center text-center">
             <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-rose-200 mb-4">
-              <img src={item.image} alt={item.name} className="w-full h-full object-cover" />
+              <img src={item.image} crossOrigin="anonymous" alt={item.name} className="w-full h-full object-cover" />
             </div>
             <div className="flex gap-1 mb-4">
               {[...Array(item.rating)].map((_, i) => (
